@@ -1,4 +1,3 @@
-## 📂 Branch Overview
 
 ### **Branch Name:** `project-feature-branch`
 
