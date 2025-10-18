@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E56F30C1-1B2A-43E7-B519-BBA53F3F4FE8}|CSE310HonorsProject\\CSE310HonorsProject.vcxproj|C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\CSE310HonorsProject\\AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E56F30C1-1B2A-43E7-B519-BBA53F3F4FE8}|CSE310HonorsProject\\CSE310HonorsProject.vcxproj|solutionrelative:CSE310HonorsProject\\AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56F30C1-1B2A-43E7-B519-BBA53F3F4FE8}|CSE310HonorsProject\\CSE310HonorsProject.vcxproj|C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\CSE310HonorsProject\\AVLTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E56F30C1-1B2A-43E7-B519-BBA53F3F4FE8}|CSE310HonorsProject\\CSE310HonorsProject.vcxproj|solutionrelative:CSE310HonorsProject\\AVLTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56F30C1-1B2A-43E7-B519-BBA53F3F4FE8}|CSE310HonorsProject\\CSE310HonorsProject.vcxproj|C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\CSE310HonorsProject\\HonorsProjectMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E56F30C1-1B2A-43E7-B519-BBA53F3F4FE8}|CSE310HonorsProject\\CSE310HonorsProject.vcxproj|solutionrelative:CSE310HonorsProject\\HonorsProjectMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AVLTree.h",
+              "DocumentMoniker": "C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\CSE310HonorsProject\\AVLTree.h",
+              "RelativeDocumentMoniker": "CSE310HonorsProject\\AVLTree.h",
+              "ToolTip": "C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\CSE310HonorsProject\\AVLTree.h",
+              "RelativeToolTip": "CSE310HonorsProject\\AVLTree.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-01-31T00:53:41.726Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AVLTree.cpp",
+              "DocumentMoniker": "C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\CSE310HonorsProject\\AVLTree.cpp",
+              "RelativeDocumentMoniker": "CSE310HonorsProject\\AVLTree.cpp",
+              "ToolTip": "C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\CSE310HonorsProject\\AVLTree.cpp",
+              "RelativeToolTip": "CSE310HonorsProject\\AVLTree.cpp",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAHkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-10T19:27:09.998Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HonorsProjectMain.cpp",
+              "DocumentMoniker": "C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\CSE310HonorsProject\\HonorsProjectMain.cpp",
+              "RelativeDocumentMoniker": "CSE310HonorsProject\\HonorsProjectMain.cpp",
+              "ToolTip": "C:\\Users\\dbuda\\source\\repos\\CSE310HonorsProject\\CSE310HonorsProject\\HonorsProjectMain.cpp",
+              "RelativeToolTip": "CSE310HonorsProject\\HonorsProjectMain.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-31T00:40:14.064Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
