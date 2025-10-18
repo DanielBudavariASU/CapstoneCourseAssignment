@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A comprehensive website for hockey statistics, news, and team details. Stay updated with the latest scores, player stats, and game results.">
+	<meta name="keywords" content="About-us, NHL, Sign-up">
+    <title>Hockey Source: Home</title>
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+</head>
+
+<body>
+    <header>
+        <section class="top">
+            <div class="titlecard"></div>
+        </section>
+    </header>
+    <!-- -->
+    <main>
+        <nav>
+            <div class="topnav">
+			<!-- IMPLEMENTS JAVA SCRIPT: click button to hide nav bar-->
+				<button id="toggle-nav" aria-label="Toggle navigation">&#9776;</button>
+                <a class="active" href="index.html">Home</a>
+                <a href="index2.html">News</a>
+                <a href="index3.html">Teams</a>
+				<a href="index4.html">Statistics</a>
+            </div>
+        </nav>
+        
+        <section class="page">
+            <div class="Hero1" title="Player lays huge hit"></div>
+            <h6 align="left">Artwork Created By Daniel Budavari</h6>
+            <h1>About Us: Our Goal and Values</h1>
+            <div class="paragraphs">
+                <div class="p1">
+                    <p>Hockey Source is a web blog that is dedicated to growing the game of Hockey by creating new fans! Here at Hockey Source our goal is to make it easier and more fun for new fans to start watching and enjoying the game. Our website acts as a one-stop resource for all hockey information, rules, news, and highlights - everything you could possibly need to start enjoying the game is located right here!</p>
+                </div>
+                <div class="p2">
+                    <p>If you are already an expert fan like us here at Hockey source, no worries! Our website has many features that caters to all levels of expertise. Below you can find multiple resources that easily breakdown the rules and basics of the game. If you head over to the news sections, there are multiple stories about all the new events, controversies, and free agency updates, you can also find the highlights and break-downs of the most interesting recent games and their key players.</p>
+                </div>
+            </div>
+            <div class="Hero2" title="Rogers Arena in Edmonton"></div>
+            <h1>How Does it Work: Rules of Play</h1>
+            <div class="videos">
+                <video width="560" height="315" controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> <br>
+                <div class="p3">
+                    <p>NHL hockey is played on an ice rink with two teams of six players each, including one goaltender, who aim to score goals by shooting a puck into the opponent's net. The game consists of three 20-minute periods, with the team having the most goals at the end winning. The game emphasizes speed, skill, and physicality, with regular line changes to keep players fresh. 
+                        These two video resources provide a more in-depth breakdown of the rules and flow of the game, enjoy your journey into hockey!</p>
+                </div>
+            </div>
+			<!-- IMPLEMENTS JAVA SCRIPT: fill out all fields and click sign up -->
+            <h1>Sign Up and Become an Expert!</h1>
+            <section class="Giveaway">
+                <p>Join us to receive the biggest stories, highlights, and more! We are currently running a giveaway for a <strong>FREE</strong> customized jersey of your choice:</p>
+            </section>
+            <form class="signup-form" action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+				<label for="name">Favorite Team:</label>
+                <input type="text" id="team" name="team" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <a href="mailto:HockeySource@gmail.com">Contact Us</a>
+        <p>Copyright &copy; 2025</p>
+    </footer>
+	<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // collapse nav bar
+      var toggleBtn = document.getElementById('toggle-nav');
+      var topnav   = document.querySelector('.topnav');
+      toggleBtn.addEventListener('click', function() {
+        topnav.style.display = 'none';
+      });
+
+      // sign-up popup
+      var form = document.querySelector('.signup-form');
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var name  = document.getElementById('name').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var phone = document.getElementById('phone').value.trim();
+        var team  = document.getElementById('team').value.trim();
+        if (name && email && phone && team) {
+          alert(
+            "Congratulations! You are now entered into the raffle for a free jersey " +
+            "and you are on your way to becoming an NHL expert!"
+          );
+          form.reset();
+        }
+      });
+    });
+	</script>
+</body>
+
+</html>

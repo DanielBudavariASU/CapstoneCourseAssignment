@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="View the latest biggest stories in hockey">
+	<meta name="keywords" content="news, stories, champions">
+    <title>Hockey Source: News</title>
+    <link rel="stylesheet" href="style.css">
+	<!-- I moved the @media here for more specific formatting -->
+	<style> 
+		@media only screen and (max-width: 911px) {
+		  .VideoText {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		  }
+		  .VideoText video,
+		  .VideoText .paragraphs2 {
+			width: 75%;
+			max-width: 100%;
+		  }
+		  .VideoText .paragraphs2 {
+			margin-top: 20px;
+		  }
+		  .playerimg {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		  }
+		  .player {
+			width: 90%;
+			max-width: 300px;
+			margin-bottom: 30px;
+		  }
+		}
+  </style>
+</head>
+
+<body> 
+    <header>
+        <section class="top">
+            <div class="titlecard"></div>
+        </section>
+    </header>
+
+    <main>
+        <nav>
+            <div class="topnav">
+				<button id="toggle-nav" aria-label="Toggle navigation">&#9776;</button>
+                <a href="index.html">Home</a>
+                <a class="active" href="index2.html">News</a>
+                <a href="index3.html">Teams</a>
+				<a href="index4.html">Statistics</a>
+            </div>
+        </nav>
+
+        <div class="Hero3" title="Art of the oilers vs panthers cup"></div>
+        
+        <section class="page2">
+            <h1>Biggest Story: Playoffs Have Begun!</h1>
+            <section class="VideoText">
+                <video width="560" height="315" controls>
+                    <source src="video2.mp4" type="video/mp4">
+                </video>
+                <section class="paragraphs2">
+                    <div class="p4">
+                        <p>The grueling jounrey for the Stanley Cup has begun! The best major league sport is hosting the best and most exciting playoffs for the BEST Trophy in sports. If a team wishes to make Lord Stanley their own - the must win 16 brutal games through 4 rounds of playoffs.</p>
+                        <p><strong>The Western Conference teams include: </strong><br>Stars vs Avalanche, Jets vs Blues, Knights vs Wild, Kings vs Oilers. <br><br><strong>The Eastern Conference teams include: </strong><br>Leafs vs Senators, Panthers vs Lightning, Hurricanes vs Devils, Canadiens vs Capitals.<br><br>Last year's final culminated in the Florida Panthers narrowly edging out the Oilers in game 7 after the Panthers relinquished a 3-0 lead. </p>
+                    </div>
+                </section>
+            </section>
+            
+            <h1>Players To Watch: Stanley Cup Playoffs</h1>
+            <section class="playerimg"> 
+                <div class="player">
+                    <img src="https://assets.nhle.com/mugs/nhl/20242025/COL/8477492.png" alt="">
+                    <p><strong>Nathan Mackinnon:</strong> Center</p>
+                    <p>Nicknamed "Nate-Dawg", Mackinnon is one of the most talented and competitve players, ranking top 2 in the NHL in talent and points. He won the Hart (MVP) trophey last season, but personal stats don't matter to the DAWG - all he wants is to lift Lord Stanley again like he did in 2022.</p>
+                </div>
+                <div class="player">
+                    <img src="https://assets.nhle.com/mugs/nhl/20232024/EDM/8478402.png" alt="">
+                    <p><strong>Connor McDavid:</strong> Center</p>
+                    <p>McDavid is easily the best player in the league and has an argument for being the most skilled player OAT'. Last year he led the playoffs with 42 points, winning the Conn Smyth even despite losing in the final, an impressive yet sad stat! McDavid has never won a Cup - maybe this is the year?</p>
+                </div>
+                <div class="player">
+                    <img src="https://assets.nhle.com/mugs/nhl/20232024/FLA/8477493.png" alt="">
+                    <p><strong>Alexander Barkov:</strong> Center</p>
+                    <p>Barkov is one of the best 2-way forwards of the current era, winning the Selke Trophy (best defensive forward) for it last season. Although he is no Bergeron, Barkov is the most important player for the reigning cup champ panthers. Will he repeat this year and solidfy himself as a Finnish icon?</p>
+                </div>
+                <div class="player">
+                    <img src="https://assets.nhle.com/mugs/nhl/20242025/WPG/8476945.png" alt="">
+                    <p><strong>Connor Hellebuck:</strong> Goalie</p>
+                    <p>"Helly" will win the Vezina trophy for the best Goalie this year, making it his 3rd total. He may even win MVP which would make him the first goalie in 10+ years to do so, but he struggles mightly in the playoffs - maybe pressure is too high? If the Jets hope to advance Helly needs to be himself.</p>
+                </div>
+            </section>
+        </section>  
+    </main>
+
+    <footer>
+        <a href="mailto:HockeySource@gmail.com">Contact Us</a>
+        <p>Copyright &copy; 2025</p>
+    </footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		  // collapse nav bar
+		  var toggleBtn = document.getElementById('toggle-nav');
+		  var topnav   = document.querySelector('.topnav');
+		  toggleBtn.addEventListener('click', function() {
+			topnav.style.display = 'none';
+		  });
+	</script>
+</body>
+
+</html>

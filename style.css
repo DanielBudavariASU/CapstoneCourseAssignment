@@ -1,0 +1,505 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+  width: 100%;
+  min-height: 100vh;
+    overflow-x: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  background-color: white;
+}
+
+footer {
+	text-align: center;
+}
+
+.topnav {
+  background-color: #20242C;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; 
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #C70039;
+  color: white;
+}
+
+.topnav a.active:hover {
+  background-color: #E7755D;
+  color: white;
+}
+
+.titlecard {
+  width: 100%;
+  height: 100px;
+  margin: 5px 5px 5px 5px;
+  background-image: url("WebLogo.png"); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 0.5s;
+}
+
+.titlecard:hover {
+    transform: scale(1.1);
+}
+
+video {
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.75);
+}
+
+.Hero1 {
+  position: relative;
+  background-image: url("HeroImg.png");
+  min-height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Hero2 {
+  text-align: center;
+  background-image: url("Rogers-Place.jpg");
+  min-height: 50vh; 
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 25pt;
+  margin-bottom: 25pt;
+  box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Hero3 {
+  position: static;
+  background-image: url("nhl-cup-final.jpg") ;
+  min-height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Hero4 {
+  position: relative;
+  background-image: url("32teams.jpg");
+  min-height: 55vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Hero5 {
+  position: relative;
+  background-image: url("wayne.jpg");
+  min-height: 55vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.playerimg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.player {
+  text-align: center;
+  max-width: 200px; 
+}
+
+.player img {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  border: 2px solid gray; 
+  object-fit: cover; 
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.player p {
+  margin-top: 10px;
+  font-size: 14px;
+  width: 100%; 
+  word-wrap: break-word; 
+}
+
+img {
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.2)
+}
+
+h1{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+h6 {
+  margin-left: 15px;
+  color: gray;
+}
+
+.paragraphs {
+  margin: 0 auto;
+  width: 70%;
+  font-size: 16.8px;
+  line-height: 23.2px;
+  letter-spacing: 1.6px;
+  color: rgb(64, 64, 64);
+  margin-bottom: 55px;
+}
+
+.paragraphs2 {
+  max-width: 40%; 
+}
+
+.p3 {
+  background-color: white;
+  max-width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  line-height: 23.2px;
+  letter-spacing: 1.3px;
+  color: rgb(64, 64, 64);
+  font-size: 16px;
+} 
+
+.p1::first-letter {
+  font-size: 64px;
+  color: #da2c4d;
+  float: left;
+  font-weight: 400;
+  line-height: 55px;
+  padding: .08em 3.2px 0 0;
+}
+
+.p4::first-letter {
+  font-size: 64px;
+  color: #da2c4d;
+  float: left;
+  font-weight: 400;
+  line-height: 55px;
+  padding: .08em 3.2px 0 0;
+}
+
+.Giveaway {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 40%;
+  line-height: 23.2px;
+  letter-spacing: 1.3px;
+  color: rgb(64, 64, 64);
+  font-size: 16px;
+  margin: 0 auto 20px auto;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-form label {
+  text-align: left;
+  width: 100%;
+  color: rgb(64, 64, 64);
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, red, gray);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.signup-form button:hover {
+  opacity: 0.8;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-evenly; 
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.VideoText {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+::selection {
+  color: black;
+  background: rgba(255, 255, 191, .8);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background: #C70039;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+.profilepage {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    box-sizing: border-box;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-info, .bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-right: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin-bottom: 2px;
+}
+
+.bio {
+    max-width: 500px;
+}
+
+.bio p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.bio-textarea {
+    font-size: 1.2rem; 
+    padding: 15px; 
+    width: 100%; 
+    height: 150px; 
+    border-radius: 8px; 
+    border: 2px solid #ccc; 
+    resize: vertical; 
+}
+
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.profile-form label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.profile-form input,
+.profile-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.profile-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-form button:hover {
+    background-color: #0056b3;
+}
+
+
+.topnav button {
+  float: left;
+  background-color: #20242C;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.topnav button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.videos {
+    display: flex;            
+    flex-direction: column;   
+    align-items: center;      
+  }
+
+  .videos .p3 {
+    max-width: 90%;          
+    margin: 10px auto 0;      
+  }
+
+@media (max-width: 600px) {
+  table th, table td {
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .topnav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .topnav button,
+  .topnav a {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .Hero1,
+  .Hero2 {
+    min-height: 30vh;
+  }
+
+  .paragraphs {
+    width: 90%;
+  }
+
+  .videos {
+    flex-direction: column;
+  }
+  .videos video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .signup-form {
+    width: 90%;
+    padding: 10px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .topnav button,
+  .topnav a {
+    flex: 1 1 100%;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  h1 {
+    text-shadow: none;
+    font-size: 32px;
+  }
+
+  .paragraphs {
+    width: 95%;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .signup-form input,
+  .signup-form button {
+    width: 100%;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+}
